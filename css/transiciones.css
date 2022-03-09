@@ -21,31 +21,14 @@
 #Opacity{
      background-color: #D1AABF;
 } */
-#Background{
-    background-color: #000000;
-}
-#Font-size{
-    background-color: #000000;
-}
-#Color{
-    background-color: #000000;
-}
-#Line-height{
-    background-color: #000000;
-}
-#Border-radius{
-    background-color: #000000;
-}
-#Box-shadow{        
-    background-color: #000000;
-}
-#Opacity{
-     background-color: #000000;
-}
+
 /*Caja nº 1 con transición de cambio de color de fondo */
 #Background{
     background-color:  #B8B8F3;
-    transition: background-color 5s linear 1s;
+}
+#Background:hover{
+    background-color:  #f397ff;
+    transition: background-color 2s linear 1s;
 }
 /*Caja nº 2 con transición de cambio de tamaño de tipografía, duración 2 segundos*/
 #Font-size{
