@@ -1,26 +1,5 @@
 /*Realizar las siguientes transiciones cuando se hace hover sobre el elemento indicado*/
 /*Asigna a cada caja un color de fondo diferente en hexadecimal siguiendo algún patron de https://coolors.co/ */
-/* #Background{
-    background-color: #B8B8F3;
-}
-#Font-size{
-    background-color: #D7B8F3;
-}
-#Color{
-    background-color: #F397D6;
-}
-#Line-height{
-    background-color: #F42272;
-}
-#order-radius{
-    background-color: #87255B;
-}
-#Box-shadow{        
-    background-color: #A55B84;
-}
-#Opacity{
-     background-color: #D1AABF;
-} */
 
 /*Caja nº 1 con transición de cambio de color de fondo */
 #Background{
@@ -37,13 +16,13 @@
 }
 #Font-size span:hover{
     font-size:80px;
-    transition: font-size  2s linear 2s;
+    transition: font-size  2s linear 1s;
     
 }
 /*Caja nº 3 con transición de cambio de color de las letras del contenedor, duración una quinta parte de un segundo*/
 #Color{
     background-color: #e79eee;
-    transition: background-color 1/5s linear 5s;
+    transition: background-color 1/5s linear 1s;
 }
 #Color span:hover{
     color:#925981;
@@ -53,16 +32,16 @@
 /*Caja nº 4 con transición de cambio de valor del interlineado, con inicio suavizado*/
 #Line-height{
     background-color: #de4eeb;
-    transition: background-color 1/5s linear 5s;
+    transition: background-color 1/5s linear 1s;
 }
 #Line-height span:hover{
     line-height: 21px;
-    transition: line-height 2s ease-in 2s ;
+    transition: line-height 2s ease-in 1s ;
 }
 /*Caja nº 5 con transición de cambio de redondeo de las esquinas un segundo después de hacer el hover*/
 #Border-radius{
     background-color: #de4eeb;
-    transition: background-color 1/5s linear 5s;
+    transition: background-color 1/5s linear 1s;
 }
 #Border-radius:hover{
     border-radius: 30px;
@@ -71,21 +50,21 @@
 /*Caja nº 6 con transición de cambio de opacidad durante 2 segundos con entrada y salida suavizada*/
 #Box-shadow{
     background-color: #8b0597;
-    transition: background-color 1/5s linear 5s;
+    transition: background-color 1/5s linear 1s;
 }
 #Box-shadow:hover{
     box-shadow: 10px 10px 3px #281d29;
-    transition: box-shadow 1s ease-in-out 2s;
+    transition: box-shadow 1s ease-in-out 1s;
 }
 /*Cajas impares con transición de sombra con salida suavizada y duración de medio segundo*/
 .caja:nth-child(odd){
     box-shadow: 10px 10px 3px #281d29;
-    transition: box-shadow 1s ease-in-out 2s;
+    transition: box-shadow 1s ease-in-out 1s;
 }
 /*Cajas 7,8 y 9 con propiedades a tu elección*/
 #Opacity{
     background-color: #c7008b;
-    transition: background-color 1/5s linear 5s;
+    transition: background-color 1/5s linear 1s;
 }
 #Opacity:hover{
     opacity: 0.08;
